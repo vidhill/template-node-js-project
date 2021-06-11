@@ -4,7 +4,7 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    plugins: ['prettier'],
+    plugins: ['prettier', 'unicorn'],
     extends: 'eslint:recommended',
     parserOptions: {
         ecmaVersion: 12,
@@ -13,6 +13,13 @@ module.exports = {
         'prettier/prettier': 'error',
         'no-console': 'error',
         'prefer-const': 'error',
+        'unicorn/filename-case': [
+            'error',
+            {
+                case: 'kebabCase',
+            },
+        ],
+        'unicorn/no-abusive-eslint-disable': 'error',
     },
     overrides: [
         {
