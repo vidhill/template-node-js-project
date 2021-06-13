@@ -18,6 +18,7 @@
         "type": "git",
         "url": "git+https://github.com/vidhill/template-node-js-project.git"
     },
+    "keywords": [],
     "author": "David Hill",
     "license": "MIT",
     "bugs": {
