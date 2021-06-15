@@ -1,3 +1,3 @@
 # template-node-js-project
 
-Template node.js application
+Template simple node.js application
