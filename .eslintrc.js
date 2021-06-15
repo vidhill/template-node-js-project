@@ -4,7 +4,7 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    plugins: ['prettier', 'unicorn'],
+    plugins: ['prettier', 'import', 'unicorn'],
     extends: ['eslint:recommended', 'plugin:node/recommended'],
     parserOptions: {
         ecmaVersion: 12,
