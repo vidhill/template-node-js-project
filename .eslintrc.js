@@ -26,6 +26,8 @@ module.exports = {
         'import/order': ['error', {}],
         'import/newline-after-import': 'error',
         'import/group-exports': 'error',
+        'node/prefer-promises/fs': 'error',
+        'node/exports-style': ['error', 'module.exports'],
     },
     overrides: [
         {
