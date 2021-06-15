@@ -22,6 +22,10 @@ module.exports = {
         'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/explicit-length-check': 'error',
         'no-useless-rename': 'error',
+        'import/no-cycle': 'error',
+        'import/order': ['error', {}],
+        'import/newline-after-import': 'error',
+        'import/group-exports': 'error',
     },
     overrides: [
         {
