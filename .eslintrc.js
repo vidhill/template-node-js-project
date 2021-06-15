@@ -5,7 +5,7 @@ module.exports = {
         node: true,
     },
     plugins: ['prettier', 'unicorn'],
-    extends: 'eslint:recommended',
+    extends: ['eslint:recommended', 'plugin:node/recommended'],
     parserOptions: {
         ecmaVersion: 12,
     },
