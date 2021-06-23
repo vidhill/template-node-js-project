@@ -16,7 +16,7 @@ jobs:
           command: npm run lint
       - run:
           name: Run tests
-          command: npm run test:ci
+          command: npm test
       # persist code coverage report
       - store_artifacts:
           path: coverage
